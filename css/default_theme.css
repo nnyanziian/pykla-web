@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Regular;
+    src: url('../text-fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: light;
+    src: url('../text-fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: bold;
+    src: url('../text-fonts/Roboto-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    font-family: "Regular" !important;
+}
+.icon-nav{
+    padding: 10px;
+}
+.icon-nav a img{
+    height: 30px;
+    width:auto;
+}
