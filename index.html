@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/default_theme.css">
-
+	<link rel="stylesheet" href="./css/aos.css">
 
 </head>
 
@@ -26,7 +26,7 @@
 		<![endif]-->
 
 	<!-- Navigation bar -->
-	<div class="header navbar navbar-default" role="navigation">
+	<div data-aos="fade-down" class="header navbar navbar-default" role="navigation">
 		<div class="container" style="margin:50px auto;">
 			<div class="navbar-header">
 				<div class="icon-nav">
@@ -58,7 +58,7 @@
 	</div>
 
 	<!-- Calousel / Slider / Hero Images -->
-	<div style="position:relative; top:0px;" id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+	<div data-aos="fade-up" style="position:relative; top:0px;" id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -117,7 +117,7 @@
 	</div>
 	<div class="container">
 		<div class="row" style="height:50vh;">
-			<div class="col=md-12 about">
+			<div  data-aos="fade-in" class="col=md-12 about">
 				<h3>We are</h3>
 				<br/>
 				<br/>
@@ -129,7 +129,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="events">
+	<div data-aos="fade-in" class="events">
 		<div class="container">
 			<div class="row">
 				<div class="col=md-12">
@@ -139,7 +139,7 @@
 			<br/>
 			<br/>
 			<br/>
-			<div class="row list">
+			<div   data-aos="slide-left"  class="row list">
 				<div class="col-md-6 item">
 					<div class="img pull-left">
 
@@ -174,13 +174,13 @@
 			<br/>
 		</div>
 	</div>
-	<div class="location-address">
+	<div data-aos="fade-in" class="location-address">
 			<iframe frameborder="0" style="border:0; width:100%; height:100vh;" 
 			src="https://www.google.com/maps/embed/v1/place?key= AIzaSyDyNlv7oOPctc-qiCRDP_-aWe1O0eApJNo 
 				  &q=Hive Colab Kamwokya, Kampala, Uganda">
 			</iframe>
 			<div class="container" style="position:relative;">
-				<div class="row top-index">
+				<div data-aos="slide-right" class="row top-index">
 					<div class="col-md-12 details">
 							<h3><i class="fa fa-map-marker"></i> &nbsp; Loccation</h3>
 						<div class="address">
@@ -191,16 +191,16 @@
 				</div>
 			</div>
 	</div>
-	<div class="join">
+	<div data-aos="fade-in" class="join">
 		<div class="container">
 			<br/>
 			<br/>
 			<br/>
-			<h3>
+			<h3 data-aos="zoom-in">
 				Interested in joining pykla
 			</h3>
 			<br/>
-			<a class="box-link btn-n btn-lg" href="http://www.meetup/pykla">Become a member</a>
+			<a data-aos="zoom-in" class="box-link btn-n btn-lg" href="http://www.meetup/pykla">Become a member</a>
 			<br/>
 			<br/>
 			<br/>
@@ -225,6 +225,7 @@
 	<!-- Js files -->
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/aos.js"></script>
 	<script src="./js/main.js"></script>
 </body>
 

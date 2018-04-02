@@ -52,6 +52,7 @@ body{
 .carousel .item{
     height:60vh;
     background-color: #3c78aa;
+    border-bottom:10px solid #fdd835;
 }
 
 .events{
@@ -207,7 +208,7 @@ footer ul{
     overflow: auto;
     width:70%;
     height:80px;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
 }
 footer ul li{
     float: left;
